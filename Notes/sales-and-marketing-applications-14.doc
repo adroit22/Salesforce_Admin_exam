@@ -1,0 +1,63 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title></title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1></h1>
+
+		
+		<ul>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">The Account Teams feature isn’t set up automatically. An administrator must turn it on and set up the roles that each team member can be assigned.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">To make account teams faster to use, you can set up your own personal Default Account Team in your personal settings. Default Teams are a shortcut that saves you from having to enter the same members into the same form over and over again. If the same people usually work together, create a default account team and assign them to it.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';font-weight: bold">What two types of account-contact relationships can you see in Contacts to Multiple Accounts? -Direct and indirect</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';font-weight: bold">How do you set up the account hierarchy? - add a parent acct to the account's record</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';font-weight: bold">Who should be on your personal Default Account Team? - coworkers who usually work with on your accounts</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">Big advantages to using leads. You can better track, report on, and target marketing campaigns to prospective customers. Leads can help you concentrate on the potential deals most likely to close. If your company has separate sales teams for prospective customers and existing customers, using leads helps everyone work more efficiently.</span></li>
+<li>
+<p class="p" style="margin: 20px 0px;padding: 0px;color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">If you’ve enabled person accounts and the lead record didn’t include a company name, the lead is converted into a person account and an opportunity.</p>
+</li>
+<li>
+<p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/leads_opportunities_lightning_experience/create-and-convert-leads-lightning/images/69159feb484ab4eec7468200fb740529_admin_intro_mod3_lead_conversion.png" alt="Converting a lead creates an account, contact, and opportunity based on the lead record. If your company uses person accounts, converting a lead creates a person account and opportunity." /></p>
+</li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">Opportunities are deals in progress. In Salesforce, you can create opportunities for existing accounts or by converting a qualified lead.</span></li>
+<li>Opportunity Satges- The stages you usually go through can look like this.
+<ul class="ul bulletList" style="margin: 20px 0px 20px 2rem;padding: 0px;color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">
+<li class="li">Prospecting</li>
+<li class="li">Proposal/Price Quote</li>
+<li class="li">Negotiation/Review</li>
+<li class="li">Closed/Won</li>
+<li class="li">Closed/Lost</li>
+</ul>
+</li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">Each stage is associated with a probability of winning the deal. Probabilities are used in creating forecasts.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">If your Salesforce admin has enabled team selling, adding an opportunity team helps team members work together and track the opportunity’s progress.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">Opportunity teams are a bit like account teams. Both let you relate particular people at your company to accounts or opportunities. But, whereas account team members can be expected to form a long-term relationship with a customer, an opportunity team is a temporary group. It’s composed of people who can help you close a deal. Opportunity team members have special visibility into an opportunity, such as related Chatter posts.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">If you’ve set up a default account team, you can add it to an opportunity instead of an opportunity team.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">An overlay split gives you a way to credit supporting team members. It can total any percentage of the opportunity amount, including a percentage over 100%. </span>To track business the designer helped close, you add the designer as an overlay split with 101% credit. At Cloud Kicks, designers with the most business impact receive an end-of-year bonus.</li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">Revenue splits are for crediting team members who are directly responsible for the revenue on an opportunity. Revenue splits always total 100% of the opportunity amount.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';font-weight: bold">To close a deal, you need support from a solution engineer. What split type do you use to assign credit for the solution engineer? - A revenue split of 100% to you and an overlay split of 50% to  solu.manager</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">Note: Select the </span><span class="ph uicontrol" style="font-weight: bold;color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">Marketing User</span><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5"> checkbox in your user profile and make sure you have permission to create campaigns. Your admin can give you that permission if you don’t already have it.</span></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">There are a few different ways hierarchies can be applied to a business’s marketing practice: Marketing strategy,</span>time period and event</li>
+<li><img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/campaign_basics/campaigns_basics_unit_2/images/a6f3bb0219d9ca7626025337b51ea7de_hierarchy_diagram2.png" alt="Margaret’s three-level hierarchy with strategic initiatives at the top, her product launch in the middle, and individual campaigns at the bottom." /></li>
+<li><span style="color: #1e1e1e;font-family: 'Salesforce Sans';background-color: #f5f5f5">With her campaigns in a hierarchy, Margaret will be able to see the results not just for individual campaigns, but also for whole sections of the hierarchy. This means that she’ll be able to see the </span>overall results for the entire product launch, and for the entire new product strategy.</li>
+</ul>
+
+		<p>Location:<a href="https://focusonforce.com/courses/salesforce-certified-administrator-study-guide/"  target="new" >Salesforce Certified Administrator Study Guide</a> &raquo; <a href="https://focusonforce.com/lessons/6-sales-cloud-applications/"  target="new" >Sales and Marketing Applications (14%)</a></p>
+
+		</body>
+		</html>
+		
