@@ -1,0 +1,68 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title>Organization Setup I (3% )</title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1>Organization Setup I (3% )</h1>
+
+		
+		<p>Notes:</p>
+<p><strong>Org setup</strong> - covers basic settings that need to be reviwed before implementation. Such as default TLC(Yimezone, language,currency). Alternate settings- SLA(data/file storage, license count, API usage).</p>
+<p> </p>
+<p>Company Settings - <strong>(TLC HILL SF)</strong></p>
+<p>1. Locale - define format of date,time,name,address and number</p>
+<p>2. TimeZone - define date and time format</p>
+<p>3.Currency - single and multi-currency</p>
+<p>4. Businees Hours and Holiday - escalation role and entitlement</p>
+<p>5. Organization ID - uique, 15 characters</p>
+<p>6. Language - 3 level support ,full sipport, end user and platform only support. Transaltion workbench for translation</p>
+<p>7. Lincense - user lincense, total, used,remining</p>
+<p>8. Storage - data and file </p>
+<p>9. Fiscal year - standard (12 month cycle) and custom</p>
+<p><strong>Default Locale</strong> - locale settings controls how different values are displayed within SF.</p>
+<p>Locale - controls language and format of date and time, currency, address, name and number</p>
+<p>Default settings on <strong>Company Information page</strong></p>
+<p>User can change default locale settings managed on <strong>Language and Time Zone </strong>settings in <strong>user's personal settings</strong>.</p>
+<p>Language Setup-</p>
+<p>End user language- <span style="font-family: 'Salesforce Sans', Arial, sans-serif;font-size: 13px">end-user languages, Salesforce provides translated labels for all standard objects and pages, <strong>except admin pages, Setup, and Help. </strong></span><span style="font-family: 'Salesforce Sans', Arial, sans-serif;font-size: 13px">End-user languages are intended only for personal use by end users. Salesforce doesn’t provide customer support in end-user languages.</span></p>
+<p>Platform-only - <span style="font-family: 'Salesforce Sans', Arial, sans-serif;font-size: 13px">In situations where Salesforce doesn’t provide default translations, use platform-only languages to localize apps and custom functionality that you build on the Salesforce Platform. You can translate items such as custom labels, custom objects, and field names. You can also rename most standard objects, labels, and fields. Informational text and non-field label text aren’t translatable.</span></p>
+<p>Multi-currency:</p>
+<p><span style="color: #3c3d3e;font-family: Helvetica;font-size: 11.36px;font-weight: bold">Advanced Currency Management : </span><span style="color: #222222;font-family: Arial, Helvetica, sans-serif;font-size: 11.36px">Allows you to manage dated exchange rates that map a currency conversion rate to a specific date range</span></p>
+<table style="color: #3c3d3e;font-family: Helvetica;font-size: 11.36px">
+<tbody>
+<tr>
+<th style="text-align: left;vertical-align: top" scope="col">Parenthetical Currency Conversion:</th>
+</tr>
+<tr>
+<td style="margin: 0px;color: #222222;font-family: Arial, Helvetica, sans-serif;padding-left: 10px">
+<p>In multi-currency organizations, Salesforce displays converted currency amounts to users whose personal currency is different from the currency of the record they’re viewing. Converted amounts appear in parentheses. If you disable this feature, currency fields display only the currency of the record.</p>
+<ul style="margin: 0px 0px 0.75rem 1.5rem;padding: 0px;border: 0px;font-size: 0.8125rem;line-height: inherit;font-family: 'Salesforce Sans', Arial, sans-serif;vertical-align: baseline;color: #333333">
+<li class="slds-p-bottom_small" style="margin: 0px;padding: 0px 0px 0.75rem;border: 0px;font: inherit;vertical-align: baseline"><span style="margin: 0px;padding: 0px;border: 0px;font-style: inherit;font-variant: inherit;font-weight: bold;font-size: inherit;line-height: inherit;font-family: inherit;vertical-align: baseline"><a style="margin: 0px;padding: 0px;border: 0px;font: inherit;vertical-align: baseline;background-color: transparent;color: #006dcc;cursor: pointer" href="https://help.salesforce.com/articleView?id=users_understanding_license_types.htm&amp;type=5">User Licenses</a></span><br />A user license determines the baseline of features that the user can access. Every user must have exactly one user license. You assign user permissions for data access through a profile and optionally one or more permission sets.</li>
+<li class="slds-p-bottom_small" style="margin: 0px;padding: 0px 0px 0.75rem;border: 0px;font: inherit;vertical-align: baseline"><span style="margin: 0px;padding: 0px;border: 0px;font-style: inherit;font-variant: inherit;font-weight: bold;font-size: inherit;line-height: inherit;font-family: inherit;vertical-align: baseline"><a style="margin: 0px;padding: 0px;border: 0px;font: inherit;vertical-align: baseline;background-color: transparent;color: #006dcc;cursor: pointer" href="https://help.salesforce.com/articleView?id=users_permissionset_licenses_overview.htm&amp;type=5">Permission Set Licenses</a></span><br />A permission set is a convenient way to assign users specific settings and permissions to use various tools and functions. Permission set licenses incrementally entitle users to access features that are not included in their user licenses. Users can be assigned any number of permission set licenses.</li>
+<li class="slds-p-bottom_small" style="margin: 0px;padding: 0px 0px 0.75rem;border: 0px;font: inherit;vertical-align: baseline"><span style="margin: 0px;padding: 0px;border: 0px;font-style: inherit;font-variant: inherit;font-weight: bold;font-size: inherit;line-height: inherit;font-family: inherit;vertical-align: baseline"><a style="margin: 0px;padding: 0px;border: 0px;font: inherit;vertical-align: baseline;background-color: transparent;color: #006dcc;cursor: pointer" href="https://help.salesforce.com/articleView?id=users_understanding_feature_licenses.htm&amp;type=5">Feature Licenses Overview</a></span><br />A feature license entitles a user to access an additional feature that is not included with his or her user license, such as Marketing or WDC. Users can be assigned any number of feature licenses.</li>
+<li class="slds-p-bottom_small" style="margin: 0px;padding: 0px 0px 0.75rem;border: 0px;font: inherit;vertical-align: baseline"><span style="margin: 0px;padding: 0px;border: 0px;font-style: inherit;font-variant: inherit;font-weight: bold;font-size: inherit;line-height: inherit;font-family: inherit;vertical-align: baseline"><a style="margin: 0px;padding: 0px;border: 0px;font: inherit;vertical-align: baseline;background-color: transparent;color: #006dcc;cursor: pointer" href="https://help.salesforce.com/articleView?id=users_understanding_tenant_usage_entitlements.htm&amp;type=5">Usage-Based Entitlements</a></span><br />A usage-based entitlement is a limited resource that your organization can use on a periodic basis. For example, the allowed number of monthly logins to a Partner Community or the record limit for Data.com list users are usage-based entitlements.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+		<p>Location:<a href="https://focusonforce.com/courses/salesforce-certified-administrator-study-guide/"  target="new" >Salesforce Certified Administrator Study Guide</a> &raquo; <a href="https://focusonforce.com/lessons/1-organization-setup/"  target="new" >Organization Setup I (3% )</a></p>
+
+		</body>
+		</html>
+		
