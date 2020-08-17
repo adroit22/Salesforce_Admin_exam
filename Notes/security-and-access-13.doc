@@ -1,0 +1,35 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title></title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1></h1>
+
+		
+		<p>Notes:</p>
+<p>Login Forensics-</p>
+<p>* There is no interface for Login Forensics</p>
+<p>*Tracks events using API objects LoginEvent and Platform Event Matrics.</p>
+<p>*Setup-&gt; Event Manager -&gt;Login Event -&gt; Enable Streaming/Storage </p>
+<p>OWD - do not grant more access than the object access granted in user's profile</p>
+<p>Manager groups ?</p>
+
+		<p>Location:<a href="https://focusonforce.com/courses/salesforce-certified-administrator-study-guide/"  target="new" >Salesforce Certified Administrator Study Guide</a> &raquo; <a href="https://focusonforce.com/lessons/4-security-and-access/"  target="new" >Security and Access (13%)</a></p>
+
+		</body>
+		</html>
+		
