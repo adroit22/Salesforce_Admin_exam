@@ -1,0 +1,32 @@
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<title></title>
+
+				
+				<style type="text/css">
+
+					html,body {
+						font-family: 'Arial', 'helvetica', 'san-serif';
+					}
+
+					
+				</style>
+
+			</head>
+		<body>
+		<h1></h1>
+
+		
+		<p>Notes:Chatter must be enabled to enable Global search</p>
+<p>List View - up to 15 different field to display can be selected</p>
+<p>In kanban view, specify 1.summarized by and 2. group by</p>
+<p>Home page can be customized by using Lightning App Builder</p>
+
+		<p>Location:<a href="https://focusonforce.com/courses/salesforce-certified-administrator-study-guide/"  target="new" >Salesforce Certified Administrator Study Guide</a> &raquo; <a href="https://focusonforce.com/lessons/organization-setup-ii-2/"  target="new" >Organization Setup II</a></p>
+
+		</body>
+		</html>
+		
